@@ -22,7 +22,7 @@ function fetchApi(query){
     let inputfield=document.getElementById("inputfield")
    
     query=query.replace(/ /g,"+") 
-    fetch(`https://chatbot-api-chintamanipala.vercel.app/ask?q=${query}`)
+    fetch(`https://chatbot-api-Bibhurath.vercel.app/ask?q=${query}`)
         .then(response => response.json())
         .then(response => {
            let info= document.getElementById("info");
